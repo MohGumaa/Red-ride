@@ -69,10 +69,8 @@ span {
 }
 
 .main-nav .log {
-    width: 110px;
-    height: auto;
+    height: 40px;
     object-fit: cover;
-    margin-top: 50px;
 }
 
 .main-nav ul {
