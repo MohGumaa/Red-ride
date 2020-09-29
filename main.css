@@ -101,6 +101,16 @@ span {
     margin-left: 20px;
 }
 
+.main-nav ul.right-menu .number {
+    display: inline-block;
+    background: red;
+    padding: .1rem 0.3rem;
+    color: #fff;
+    font-size: 75%;
+    line-height: 1;
+    border-radius: 0.25rem;
+}
+
 /* Showcase */
 #showcase {
     display: flex;
@@ -372,6 +382,10 @@ footer li i  {
 
     .main-nav ul.main-menu.show {
         transform: translateX(-20px);
+    }
+
+    .main-nav ul.right-menu {
+        margin-right: 10px;
     }
 
     #showcase {
